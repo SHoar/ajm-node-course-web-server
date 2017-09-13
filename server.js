@@ -52,7 +52,13 @@ app.get('/help', (req, res) => {
   res.render('help', {
     pageTitle: 'Help Page',
   });
-})
+});
+
+app.get('/projects', (req,res) => {
+  res.render('projects', {
+    pageTitle: 'Projects Page'
+  });
+});
 
 app.get('/bad', (req,res)=> {
   res.send({ errorMessage: "Unable to Display Page"});
