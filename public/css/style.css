@@ -1,0 +1,10 @@
+div.navbar {
+  background: #c3c3c3;
+  padding: 5px;  
+}
+.nav {
+  display: inline;
+  list-style-type: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
