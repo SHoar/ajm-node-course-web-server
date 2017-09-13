@@ -16,9 +16,10 @@ app.use((req, res, next) => {
   next();
 })
 /* Maintenance page middleware */
-app.use((req,res,next) => {
-  res.render('maintenance');
-})
+// app.use((req,res,next) => {
+//   res.render('maintenance');
+// })
+
 // We can also use the static pages in /public
 app.use(express.static(__dirname + '/public'));
 
